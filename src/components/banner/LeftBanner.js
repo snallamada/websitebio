@@ -5,7 +5,7 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Professional Coder.", "Full Stack Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -27,9 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Experienced Full Stack Developer with 5+ years of exposure. Expertise in ReactJs & 3+years of working in France, Graduated from Ecole de Management Leonard De Vinci (EMLV).
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
