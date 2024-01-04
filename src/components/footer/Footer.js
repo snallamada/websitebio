@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
+import Navbar from '../navbar/Navbar';
 
 const Footer = () => {
   return (
@@ -23,6 +24,7 @@ const Footer = () => {
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
+        <Navbar/>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">

@@ -4,6 +4,7 @@ import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
 import Experience from "./Experience"
+import ShravansResumePdf from './ShravansResumePdf';
 
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
@@ -83,14 +84,10 @@ const Resume = () => {
       {achievementData && <Achievement />}
       {experienceData && <Experience />}
       </div>
+      <div className="w-full" style={{ marginTop: '80px' }}>
 
-      <div className="w-full" style={{marginTop:"80px",}}>
-                <button
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-red-400 tracking-wider  hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
-                >
-Download Shravan's Resume                </button>
-                </div>
-
+<ShravansResumePdf buttonText="Download Shravan's Resume"/></div>
+      
 
     </section>
   );
