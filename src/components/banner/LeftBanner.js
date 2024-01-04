@@ -1,8 +1,8 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { SiAngularjs,SiTailwindcss, SiJavascript, } from "react-icons/si";
-import { BsGithub } from "react-icons/bs";
+import MySocialIcons from './MySocialIcons';
 
 
 const LeftBanner = () => {
@@ -37,29 +37,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/shravan-kumar-reddy-nallamada/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
-            </span>
-            <span className="bannerIcon">
-                      
-                        <a href="https://github.com/snallamada" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
-
-
-            </span>
-            <span className="bannerIcon">
-
-              
-  
-  <a href="https://twitter.com/ts_shra1_reddy" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-
-
-
-
-
-            </span>
-          </div>
-        </div>
+<div><MySocialIcons/></div>  </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
