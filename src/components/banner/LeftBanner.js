@@ -1,7 +1,9 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiAngularjs,SiTailwindcss, SiJavascript, } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
+
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -37,13 +39,24 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+            <a href="https://www.linkedin.com/in/shravan-kumar-reddy-nallamada/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+                      
+                        <a href="https://github.com/snallamada" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+
+
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+
+              
+  
+  <a href="https://twitter.com/ts_shra1_reddy" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+
+
+
+
+
             </span>
           </div>
         </div>
@@ -53,17 +66,18 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+            <SiJavascript />
+
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+            <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+            <SiAngularjs />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
-            </span>
+            <SiTailwindcss />
+                        </span>
           </div>
         </div>
       </div>

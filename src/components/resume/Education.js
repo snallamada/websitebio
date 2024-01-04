@@ -12,26 +12,26 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2016 || 2019 - 2020</p>
+          <p className="text-sm text-designColor tracking-[4px]"><b>2010 - 2016 || 2019 - 2020</b></p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Bac+5"
             subTitle="EMLV - Ecole de Management Léonard De Vinci.(2019 - 2020)"
-            result="3.90/5"
+            result="France,Paris"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
             title=" Bachelor's in Cumputer Science Engineering"
             subTitle="Jawaharlal Nehru Technological University Hyderabad (2014 - 2016)"
-            result="3.75/5"
+            result="Hyderabad,India"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
             title="Intermidiate +2"
             subTitle="Vidwan Junior College(2010 - 2012)"
-            result="4.25/5"
+            result="Nalgonda,India"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
@@ -40,7 +40,7 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2016 - Present</p>
+          <p className="text-sm text-designColor tracking-[4px]"><b>2016 - Present</b></p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">

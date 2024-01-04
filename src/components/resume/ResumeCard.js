@@ -28,6 +28,8 @@ const ResumeCard = ({title,subTitle,result,des}) => {
           {des}
         </p>
       </div>
+
+    
     </div>
   );
 }

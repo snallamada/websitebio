@@ -77,11 +77,21 @@ const Resume = () => {
           </li>
         </ul>
       </div>
+      <div>
       {educationData && <Education />}
       {skillData && <Skills />}
       {achievementData && <Achievement />}
       {experienceData && <Experience />}
- 
+      </div>
+
+      <div className="w-full" style={{marginTop:"80px",}}>
+                <button
+                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-red-400 tracking-wider  hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                >
+Download Shravan's Resume                </button>
+                </div>
+
+
     </section>
   );
 }

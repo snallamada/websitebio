@@ -21,6 +21,9 @@ const Projects = () => {
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
+          gitlink="https://github.com/snallamada/Employee-portal-app"
+          weblink="https://portallogin.netlify.app/" 
+          
         />
         <ProjectsCard
           title="Food search app"
