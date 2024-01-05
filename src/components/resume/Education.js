@@ -17,23 +17,40 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Bac+5"
+            title="Master's in Digital Marketing Strategy (Bac+5)"
             subTitle="Ecole de Management Léonard De Vinci.(2019 - 2020)"
             result="France,Paris"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
+            des={<ul>
+              <li>Assisted in research projects related to emerging trends in web development, gaining exposure to the latest technologies and frameworks.</li>
+              <li>Collaborated with faculty on website optimization initiatives, implementing responsive design and accessibility features.</li>
+              <li>Led a team in the development of a dynamic website for a local business, integrating e-commerce functionalities and ensuring optimal user experience.
+</li>
+            </ul>
+
+            } />
           <ResumeCard
-            title=" Bachelor's in Cumputer Science Engineering"
+            title=" Bachelor's in Cumputer Science Engineering."
             subTitle="Jawaharlal Nehru Technological University Hyderabad (2014 - 2016)"
             result="Hyderabad,India"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
+            des={
+            <ul>
+              <li>Contributed to the development of web applications, focusing on front-end and back-end technologies.</li>
+              <li>Enhanced proficiency in HTML, CSS, and JavaScript for creating responsive and visually appealing user interfaces.</li>
+              <li>Worked with Node.js and Express for server-side development, implementing RESTful APIs.</li>
+              <li>Designed and developed a personal portfolio website showcasing projects and skills using HTML, CSS, and JavaScript.</li>
+              </ul>
+            }
+            />
           <ResumeCard
             title="Intermidiate +2"
             subTitle="Vidwan Junior College(2010 - 2012)"
             result="Nalgonda,India"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+            des={
+              <ul>
+                <li>Embraced challenges, learned from failures, and developed a resilient mindset for future pursuits.</li>
+                <li>In summary, my +2 education was a well-rounded experience, marked by academic achievements, extracurricular engagement, and personal growth, providing a strong foundation for future endeavors.</li>
+                </ul>
+              }/>
         </div>
       </div>
       
