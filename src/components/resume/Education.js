@@ -18,7 +18,7 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Bac+5"
-            subTitle="EMLV - Ecole de Management Léonard De Vinci.(2019 - 2020)"
+            subTitle="Ecole de Management Léonard De Vinci.(2019 - 2020)"
             result="France,Paris"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
@@ -36,7 +36,8 @@ const Education = () => {
           />
         </div>
       </div>
-      {/* part Two */}
+      
+      {/* part Two
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
@@ -45,25 +46,25 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Full Stack Web Developer"
+            title="Front-end Developer"
             subTitle="Publication Agora France - (2021 - Present)"
             result="France, Paris"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
-            title="Full Stack Web Developer - Intern"
+            title="Web Developer - Intern"
             subTitle="Daylindo - (2020 - 6 months)"
             result="France, Paris"
             des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
           />
           <ResumeCard
-            title="Full Stack Web Developer"
+            title="Web Developer"
             subTitle="WI - Group Private Limited - (2016 - 2019)"
             result="India, Guntur"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
