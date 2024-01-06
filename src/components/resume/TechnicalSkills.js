@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
-import {siJavascript} from "react-icons/si"
 const TechnicalSkills = () => {
     return (
         <motion.div
@@ -12,19 +11,18 @@ const TechnicalSkills = () => {
           {/* part one */}
           <div>
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-              <p className="text-sm text-designColor tracking-[4px]"><b>2010 - 2016 || 2016 - 2019</b></p>
+              <p className="text-sm text-designColor tracking-[4px]"><b>2010 - 2016 || 2016 - 2019 || Present</b></p>
               <h2 className="text-3xl md:text-4xl font-bold">Technical Skills</h2>
             </div>
             <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
               <ResumeCard
                 title="Front End"
-                subTitle="Core technologies for Develop Website, Web Application"
+                subTitle="Core technologies for Creating UI of Website, Web Application."
                 result="Presentation"
-                // des="Html, CSS, Javascript, Typescript, ReactJs, VueJs, AngulerJS,UX Design & Architecture"
                 des={
                 <ul>
-                  <li>Html, CSS</li>
-                  <li>JavaScript, Typescript</li>
+                  <li>Html, CSS,JavaScript</li>
+                  <li>Typescript, ReactNative</li>
                   <li>React, AngulerJS, VueJs</li>
                  </ul>
                 }
@@ -33,26 +31,38 @@ const TechnicalSkills = () => {
                 title="Libraries"
                 subTitle="Reusable code libraries"
                 result="UI design"
-                des="Bootstrap , React Bootstrap, ANT, Tailwind"
-              />
+                des={
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>React Bootstrap</li>
+                  <li>ANT, Tailwind</li>
+                 </ul>
+                }
+                />
               <ResumeCard
                 title="Back End"
                 subTitle="Server-side technologies"
-                result="API"
-                des="Strapi, NodeJS,ExpressJs,API's, GraphQL."
-              />
+                result="Logic"
+                des={
+                <ul>
+                  <li> NodeJS,ExpressJs</li>
+                  <li>Strapi, Postman</li>
+                  <li>Rest API's, GraphQL.</li>
+                 </ul>
+                }
+                />
               <ResumeCard
                 title="Database"
-                subTitle="Systems for storing, managing, and retrieving data"
-                result="Data Storage"
-                des="MongoDB, Mysql, PostgreSQL, FireBase."
-              />
-               <ResumeCard
-                title="Mobile Application"
-                subTitle="Applications for Mobile Devices"
-                result="iOS or Android."
-                des="React Native (Android, ios ),Expo(view)"
-              />
+                subTitle="Systems for storing, managing, retrieving data"
+                result="Storage"
+                des={
+                  <ul>
+                    <li>MongoDB, Mysql</li>
+                    <li> PostgreSQL</li>
+                    <li>FireBase</li>
+                   </ul>
+                  }
+                  />
             </div>
           </div>
           
@@ -60,40 +70,59 @@ const TechnicalSkills = () => {
     
           <div>
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-              <p className="text-sm text-designColor tracking-[4px]"><b>2021 - Present</b></p>
-              <h2 className="text-3xl md:text-4xl font-bold">Expertise</h2>
+              <p className="text-sm text-designColor tracking-[4px]"><b>Hands on..</b></p>
+              <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
             </div>
             <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
               <ResumeCard
                 title="Cloud Services"
                 subTitle="Web-based services"
-                result="Web Housting"
-                des="WPserveur, AWS, Azure, DigitalOcean"
-              />
+                result="Scalability"
+                des={
+                  <ul>
+                    <li>WPserveur</li>
+                    <li>AWS, Azure</li>
+                    <li>DigitalOcean</li>
+                   </ul>
+                  }
+                  />
               <ResumeCard
-                title="CMS"
+                title="CMS Platforms"
                 subTitle="Content Management Systems"
                 result="Websites"
-                des="WordPress, JQuery, web hosting servers, Cpanel,Payment gateways and theme customizations."
-              />
+                des={
+                  <ul>
+                    <li>WordPress, JQuery</li>
+                    <li>web hosting servers,Cpanel </li>
+                     <li>Payment gateways and theme customizations.</li>
+                   </ul>
+                  }
+                  />
               <ResumeCard
                 title="Tools"
-                subTitle="Web-based platforms"
+                subTitle="Web-based platforms - collaborative software development."
                 result="Version Control"
-                des="Github, Bitbucket,postman,Docker, kubernetes"
-              />
+                des={
+                  <ul>
+                    <li>Github, Bitbucket</li>
+                    <li>Docker(Containerization)</li>
+                    <li>kubernetes(Orchestration)</li>
+                   </ul>
+                  }
+                  />
                 <ResumeCard
                 title="Management Tools"
                 subTitle="collaboration"
                 result="Communication"
-                des="Slack, Miro, MS office 365, Zoom,Agile,Scrum"
-              />
-                 <ResumeCard
-                title="Design"
-                subTitle="Principles, tools, and processes"
-                result="creating visually appealing"
-                des="Figma, Adobe"
-              />
+                des={
+                  <ul>
+                    <li>Slack, Miro,MS office 365</li>
+                    <li>Zoom, Figma, Adobe</li>
+                    <li>Agile,Scrum</li>
+                   </ul>
+                  }
+                  />
+              
             </div>
           </div> 
         </motion.div>
