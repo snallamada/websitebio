@@ -22,16 +22,16 @@ const Achievement = () => {
             des="Improvement of UI/UX for websites and web applications, ensuring updates, modifications, and compliance with security,GDPR, and cookie consent."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Daylindo"
+            subTitle="Competency based learning platform"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Revamped and maintained the company website, implementing authentication features for enhanced security."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="WI Group Private Limited"
+            subTitle="IT Services and IT Consulting"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Implemented UI/UX design principles for web applications and websites, focusing on enhancing user experiences and resolving debugging issues"
           />
         </div>
       </div>
@@ -49,15 +49,15 @@ const Achievement = () => {
           />
           <ResumeCard
             title="Roles and Responsibilities"
-            subTitle=""
+            subTitle="Technological Expertise"
             result="Success"
-            des=""
+            des="Demonstrated expertise in ReactJS, Redux, and AngularJS for developing responsive and dynamic applications."
           />
           <ResumeCard
             title="Roles and Responsibilities"
-            subTitle=""
+            subTitle="End-to-End Website Development"
             result="Success"
-            des=""
+            des="Developed web applications with customized features tailored to meet client specifications.Worked on end-to-end website development, from landing pages to dynamic e-commerce sites."
           />
         </div>
       </div>

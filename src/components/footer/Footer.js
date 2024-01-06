@@ -1,7 +1,10 @@
 import React from 'react'
-
+import { navLinksdata } from '../../constants';
 import {logo} from "../../assets/index"
 import MySocialIcons from '../banner/MySocialIcons';
+import { Link } from "react-scroll";
+
+
 
 const Footer = () => {
   return (
@@ -13,111 +16,100 @@ const Footer = () => {
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
-        </h3>     <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              About
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Portfolio
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Services
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Blog
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Contact
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+        </h3>     
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+        {navLinksdata.map(({ _id, title, link }) => (
+            <li
+              className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer"
+              key={_id}
+            >
+              <Link
+                activeClass="active"
+                to={link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {title}
+              </Link>
+            </li>
+          ))}
         </ul>
-      </div>
+
+             </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+         <a href="https://www.javascript.com/"> <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              JavaScript </span>
+          </li></a>
+          <a href='https://www.typescriptlang.org/'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+              Typescript</span>
+          </li></a>
+          <a href='https://react.dev/reference/react'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              System Status
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+              ReactJs          </span>
+          </li></a>
+          <a href='https://docs.angularjs.org/guide'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Terms of Service
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+              AngulerJS            </span>
+          </li></a>
+         <a href='https://vuejs.org/guide/introduction.html'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+              VueJs           </span>
+          </li></a>
+          <a href='https://reactnative.dev/docs/getting-started'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+                 ReactNative        </span>
+          </li></a>
         </ul>
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+          Documentation
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
+         <a href='https://developer.mozilla.org/en-US/'>
+           <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+            Mozilla Developer Network </span>
+          </li></a>
+          <a href='https://www.freecodecamp.org/'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Documentation
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+            FreeCodeCamp       </span>
+          </li></a>
+          <a href='https://www.codecademy.com/resources/docs'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+            Codecademy           </span>
+          </li></a>
+          <a href="https://nodejs.org/docs/latest/api/">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+            NodeJS           </span>
+          </li></a>
+          <a href='https://docs.github.com/en'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Support
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+              Github            </span>
+          </li></a>
+         <a href='https://bitbucket.org/'>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+              Bitbucket           </span>
+          </li></a>
+        
         </ul>
       </div>
     </div>
