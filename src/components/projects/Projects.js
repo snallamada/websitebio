@@ -30,12 +30,16 @@ const Projects = () => {
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
-        />
+          gitlink="https://github.com/snallamada/food-search-app"
+          weblink="https://shravan-food-search.netlify.app/" 
+       />
         <ProjectsCard
           title="Shopping cart"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
+          gitlink="#"
+          weblink="#" 
         />
         {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"
