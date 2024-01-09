@@ -29,7 +29,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Experienced Frontend Developer with 5+ years of exposure. Expertise in ReactJs & 3+years of working in France, Graduated from Ecole de Management Leonard De Vinci (EMLV).
+        Experienced Frontend Developer with 6+ years of exposure. Expertise in ReactJs & 3+years of working in France, Graduated from Ecole de Management Leonard De Vinci (EMLV).
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
