@@ -18,8 +18,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Employee Portal"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="The Employee Portal streamlines access to company information through secure logins, offering a centralized hub for updates and documents. It promotes efficiency, ensuring quick retrieval of essential information, and enhances communication in the workplace."
           src={projectOne}
           gitlink="https://github.com/snallamada/Employee-portal-app"
           weblink="https://portallogin.netlify.app/" 
@@ -27,19 +26,17 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Food search app"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="The Food Search App simplifies your culinary exploration, allowing you to discover a diverse range of dishes. From pizza and pasta to biryani and more, easily find your desired food items. Enjoy a seamless and delightful food discovery experience at your fingertips."
           src={projectTwo}
           gitlink="https://github.com/snallamada/food-search-app"
           weblink="https://shravan-food-search.netlify.app/" 
        />
         <ProjectsCard
-          title="Shopping cart"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Task Tracker App"
+          des="The Task Tracker App streamlines your productivity journey, offering a user-friendly platform to manage your tasks effortlessly. Organize, track, and accomplish your goals with ease. Enhance your efficiency and stay on top of your to-do list, making progress one task at a time."
           src={projectThree}
-          gitlink="#"
-          weblink="#" 
+          gitlink="https://github.com/snallamada/Task-tracker-app"
+          weblink="https://shravan-task-tracker-app-one.vercel.app/" 
         />
         {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"
