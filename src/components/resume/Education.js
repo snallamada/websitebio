@@ -15,7 +15,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]"><b>2010 - 2016 || 2019 - 2020</b></p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-100% border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Master's in Digital Marketing Strategy (Bac+5)"
             subTitle="Ecole de Management Léonard De Vinci.(2019 - 2020)"

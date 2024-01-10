@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
+import "./smalldevice.css"
 
 const Experience = () => {
   return (
@@ -14,7 +15,7 @@ const Experience = () => {
           <p className="text-m text-designColor tracking-[4px]"><b>2016 - Present</b></p>
           <h2 className="text-3xl md:text-4xl font-bold">Work Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-100% border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
               <ResumeCard
                 title="Frontend Developer"
                 subTitle="Publication Agora France - (2021 - Present)"
