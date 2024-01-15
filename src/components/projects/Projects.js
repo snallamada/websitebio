@@ -34,6 +34,14 @@ const Projects = () => {
           gitlink="https://github.com/snallamada/food-search-app"
           weblink="https://shravan-food-search.netlify.app/" 
        />
+         <ProjectsCard
+          title="CURD Application"
+          des="Create, read, update, and delete tasks seamlessly with our intuitive CRUD application. Streamline task management for enhanced productivity and efficiency."
+          src={projectFour}
+          framework={<FaAngular/>}
+          gitlink="https://github.com/snallamada/anguler-curd-app"
+          weblink="https://shravan-anguler-curd-app.vercel.app/" 
+        />
         <ProjectsCard
           title="Task Tracker App"
           des="The Task Tracker App streamlines your productivity journey, offering a user-friendly platform to manage your tasks effortlessly. Organize, track, and accomplish your goals with ease. Enhance your efficiency and stay on top of your to-do list, making progress one task at a time."
@@ -42,14 +50,7 @@ const Projects = () => {
           gitlink="https://github.com/snallamada/Task-tracker-app"
           weblink="https://shravan-task-tracker-app-one.vercel.app/" 
         />
-       <ProjectsCard
-          title="CURD Application"
-          des="Create, read, update, and delete tasks seamlessly with our intuitive CRUD application. Streamline task management for enhanced productivity and efficiency."
-          src={projectFour}
-          framework={<FaAngular/>}
-          gitlink="https://github.com/snallamada/anguler-curd-app"
-          weblink="https://shravan-anguler-curd-app.vercel.app/" 
-        />
+     
        {/*   <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
