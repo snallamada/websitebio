@@ -1,8 +1,8 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree , projectFour} from "../../assets/index";
+import { projectOne, projectTwo, projectThree , projectFour, expensesapp} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
-import { FaReact , FaAngular } from 'react-icons/fa';
+import { FaReact , FaAngular, FaVuejs } from 'react-icons/fa';
 
 const Projects = () => {
   return (
@@ -44,19 +44,22 @@ const Projects = () => {
         />
        <ProjectsCard
           title="CURD Application"
-          des="Create, read, update, and delete tasks seamlessly with our intuitive CRUD application. Streamline task management for enhanced productivity and efficiency."
+          des="The Angular CURD App simplifies data management with easy Create, Update, Retrieve, and Delete functionalities. Seamlessly organize and control your records through an intuitive user interface. Effortlessly navigate and manipulate data for a smooth user experience."
           src={projectFour}
           framework={<FaAngular/>}
           gitlink="https://github.com/snallamada/anguler-curd-app"
           weblink="https://shravan-anguler-curd-app.vercel.app/" 
         />
-       {/*   <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          <ProjectsCard
+          title="Expense's Track App"
+          des="The Expense Tracker App streamlines your financial management, providing a user-friendly platform to effortlessly monitor and categorize your expenses. From groceries to utilities, track your spending with ease."
+          src={expensesapp}
+          framework={<FaVuejs />}
+          gitlink="https://github.com/snallamada/Vue-expense-tracker-app"
+          weblink="https://shravan-vue-expense-tracker.vercel.app/" 
+ 
         />
-        <ProjectsCard
+      {/*  <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
