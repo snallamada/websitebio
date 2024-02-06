@@ -3,6 +3,7 @@ import Title from '../layouts/Title'
 import { projectOne, projectTwo, projectThree , projectFour, expensesapp} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import { FaReact , FaAngular, FaVuejs } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -66,6 +67,8 @@ const Projects = () => {
           src={projectTwo}
         /> */}
       </div>
+<div className="w-full" style={{ marginTop: '80px' }}><Link to="/viewprojects"><button className="w-full h-12 bg-[#141518] rounded-lg text-base text-red-400 tracking-wider hover:text-white duration-300 hover:border-[1px] hover:border-design color border-transparent">
+   View All Projects   </button></Link></div>
     </section>
   );
 }
