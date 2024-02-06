@@ -11,53 +11,53 @@ const Achievement = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]"><b>2016 - Present</b></p>
           <h2 className="text-3xl md:text-4xl font-bold">Company Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Publications Agora France"
+            subTitle="Publications Agora France is one of the companies of AGORA"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Improvement of UI/UX for websites and web applications, ensuring updates, modifications, and compliance with security,GDPR, and cookie consent."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Daylindo"
+            subTitle="Competency based learning platform"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Revamped and maintained the company website, implementing authentication features for enhanced security."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="WI Group Private Limited"
+            subTitle="IT Services and IT Consulting"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Implemented UI/UX design principles for web applications and websites, focusing on enhancing user experiences and resolving debugging issues"
           />
         </div>
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]"><b>2016 - Present</b></p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Roles and Responsibilities"
+            subTitle="Live-Content Feature , client space, Live Stats"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Developed a live-content feature using ReactJs to deliver personalized content.Created dynamic event websites with new features for special events."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Roles and Responsibilities"
+            subTitle="Technological Expertise"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Demonstrated expertise in ReactJS, Redux, and AngularJS for developing responsive and dynamic applications."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Roles and Responsibilities"
+            subTitle="End-to-End Website Development"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Developed web applications with customized features tailored to meet client specifications.Worked on end-to-end website development, from landing pages to dynamic e-commerce sites."
           />
         </div>
       </div>

@@ -108,11 +108,10 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
-                  </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+Guntur, India                  </p>
+                  <h3 className="text-2xl font-bold">Mujammil Shaik</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Managing Director
                   </p>
                 </div>
               </div>
@@ -121,11 +120,10 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide"> Web Development
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        Jun 4, 2016 - Aug 30, 2019 
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -137,11 +135,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Your passion, creativity, and attention to detail have set a high standard within our team. I have no doubt that your skills and dedication will continue to make a significant impact in your future endeavors.
                   </p>
                 </div>
               </div>
@@ -159,11 +153,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Hyderabad - India
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Shashidher N</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Travel Agency Owner
                   </p>
                 </div>
               </div>
@@ -173,10 +167,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Personal Technical Advisor
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                         October 10, 2020 - Present
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -188,11 +182,8 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    
+Your role as a personal technical advisor has been crucial, providing strategic insights and ensuring technological competitiveness. Your ability to simplify complexities and stay ahead of trends has greatly impacted our decision-making. Thanks for your valuable contributions to our success.
                   </p>
                 </div>
               </div>
@@ -210,12 +201,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Hyderabad - India
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Ajay Kumar</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
-                  </p>
+    Oparational Manager </p>
                 </div>
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
@@ -224,10 +214,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Company - Employee Portal
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        Freelance - 2019
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -239,12 +229,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
-                  </p>
+                  Your employee portal efficiently manages profile data and salary information, providing a secure and user-friendly platform for streamlined access and updates. It has significantly improved our internal processes, ensuring data integrity and enhancing overall efficiency. Well done on delivering a focused and impactful solution.</p>
                 </div>
               </div>
             </div>

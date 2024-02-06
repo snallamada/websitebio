@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
+import "./smalldevice.css"
 
 const Experience = () => {
   return (
@@ -11,57 +12,50 @@ const Experience = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-m text-designColor tracking-[4px]"><b>2016 - Present</b></p>
+          <h2 className="text-3xl md:text-4xl font-bold">Work Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
-        </div>
-      </div>
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
-        </div>
-      </div>
-    </motion.div>
+        <div className="mt-6 lgl:mt-14 w-full h-100% border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+              <ResumeCard
+                title="Frontend Developer"
+                subTitle="Publication Agora France - (2021 - Present)"
+                result="France, Paris"
+                des={
+                <ul>
+                  <li>Maintain and improve UI/UX of websites, and web applications - updates, modifications, security, GDPR, cookie consent, etc.</li>
+                  <li>Backend, Server setup/monitor, API integration, configuration & development of live projects.</li>
+                  <li>Live-content Feature: developed by using ReactJs to fetch data and render personalized content.</li>
+                  <li>Live stats Data web application developed with the language variables dashboard.</li>  
+                  <li>Creating new websites for special events which includes Dynamic Features.</li>   
+                  <li>Addition of new features, functionalities, and live content, maintain FTP, Cpanel & CMS platforms, Create a plugin with ReactJs, web application.</li>         
+                </ul>
+              } />
+              <ResumeCard
+                title="Web Developer - Intern"
+                subTitle="Daylindo - (2020 - 6 months)"
+                result="France, Paris"
+                des={
+                  <ul>
+                    <li>Developed application with ReactJS , Redux, and AngularJS.</li>
+                    <li>Technologies adopted: npm,git, jwt Tokens, Google Cloud, firebase</li>
+                    <li>Revamped and maintained the company website including authentication.</li>
+                   </ul>
+                }  />
+              <ResumeCard
+                title="Web Developer"
+                subTitle="WI - Group Private Limited - (2016 - 2019)"
+                result="India, Guntur"
+                des={
+                  <ul>
+                    <li>Worked on UI / UX design principles relating to Web applications and websites, debugging website issues.</li>
+                    <li>Worked and developed web applications, adding customized features depending on the client.</li>
+                    <li>Fix security issues and debugging vulnerabilities on both the front end and back end.</li>
+                    <li>Developed websites from landing pages to e-commerce sites.</li>
+                   </ul>
+                }  />
+            </div>
+          </div>
+        </motion.div>
   );
 };
 

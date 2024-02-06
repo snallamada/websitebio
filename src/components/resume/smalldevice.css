@@ -1,0 +1,27 @@
+
+
+/* Small screens */
+@media (max-width: 576px) {
+    .flex-col {
+      flex-direction: column;
+    }
+  
+    .lgl\:py-12 {
+      padding-bottom: 6px;
+    }
+  }
+  
+  /* Medium screens */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .lgl\:py-12 {
+      padding-bottom: 8px;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 769px) {
+    .lgl:w-[80%] {
+      width: 100%; /* Adjust width as needed for small screens */
+    }
+  }
+  

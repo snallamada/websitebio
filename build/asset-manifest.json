@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79ecbcf8.css",
+    "main.js": "/static/js/main.088a453d.js",
+    "static/media/logo.png": "/static/media/logo.17406ee48ca9926cd5d1.png",
+    "static/media/bannerImg.png": "/static/media/bannerImg.31d5da6d3d23cacf183b.png",
+    "static/media/expensesapp.png": "/static/media/expensesapp.220ec4ca9e5a6d37c4e0.png",
+    "static/media/projectFour.png": "/static/media/projectFour.276b7de699c35a76d542.png",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/projectTwo.jpg": "/static/media/projectTwo.0cff906a434bf3cb374e.jpg",
+    "static/media/projectThree.jpeg": "/static/media/projectThree.e36cf43873762adc1815.jpeg",
+    "static/media/projectOne.jpg": "/static/media/projectOne.fee8654bde721d0eb48d.jpg",
+    "index.html": "/index.html",
+    "main.79ecbcf8.css.map": "/static/css/main.79ecbcf8.css.map",
+    "main.088a453d.js.map": "/static/js/main.088a453d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79ecbcf8.css",
+    "static/js/main.088a453d.js"
+  ]
+}

@@ -15,39 +15,35 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="I specialize in planning and creating user-friendly website designs, turning ideas into smooth and Best-performing online experiences."
          
         />
-        <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<AiFillAppstore />}
-        />
-        <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
-        />
-        <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
-        />
-        <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+         <Card
+          title="UI / UX Design"
+          des="I focus on crafting intuitive designs, transforming concepts into polished and Dynamic online interactions."
           icon={<SiAntdesign />}
         />
         <Card
+          title="App Development"
+          des="I excel in developing and optimizing web applications, transforming concepts into seamless and Efficient-performing digital solutions"
+          icon={<AiFillAppstore />}
+        />
+       
+        <Card
+          title="Mobile Development"
+          des="I specialize in crafting intuitive mobile applications, transforming concepts into Unified and high-performing digital experiences."
+          icon={<FaMobile />}
+        />
+       
+        <Card
           title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="I adeptly manage hosting websites, transforming concepts into Synchronized, Quick online platforms."
           icon={<FaGlobe />}
+        />
+         <Card
+          title="SEO Optimisation"
+          des="I specialize in optimizing websites for search engines, refining user experiences and performance to achieve online excellence."
+          icon={<SiProgress />}
         />
       </div>
     </section>

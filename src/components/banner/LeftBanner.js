@@ -1,11 +1,13 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiAngularjs,SiTailwindcss, SiJavascript, } from "react-icons/si";
+import MySocialIcons from './MySocialIcons';
+
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer."],
+      words: ["Professional Coder.", "Frontend Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -27,7 +29,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Experienced Full Stack Developer with 5+ years of exposure. Expertise in ReactJs & 3+years of working in France, Graduated from Ecole de Management Leonard De Vinci (EMLV).
+        Experienced Frontend Developer with 6+ years of exposure. Expertise in ReactJs & 3+years of working in France, Graduated from Ecole de Management Leonard De Vinci (EMLV).
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -35,35 +37,25 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </div>
-        </div>
+<div><MySocialIcons/></div>  </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+            <SiJavascript />
+
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+            <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+            <SiAngularjs />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
-            </span>
+            <SiTailwindcss />
+                        </span>
           </div>
         </div>
       </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree , projectFour, expensesapp} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
+import { FaReact , FaAngular, FaVuejs } from 'react-icons/fa';
 
 const Projects = () => {
   return (
@@ -18,35 +19,47 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Employee Portal"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="The Employee Portal streamlines access to company information through secure logins, offering a centralized hub for updates and documents. It promotes efficiency, ensuring quick retrieval of essential information, and enhances communication in the workplace."
           src={projectOne}
+          framework={<FaReact/>}
+          gitlink="https://github.com/snallamada/Employee-portal-app"
+          weblink="https://portallogin.netlify.app/" 
+ 
         />
         <ProjectsCard
           title="Food search app"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="The Food Search App simplifies your culinary exploration, allowing you to discover a diverse range of dishes. From pizza and pasta to biryani and more, easily find your desired food items. Enjoy a seamless and delightful food discovery experience at your fingertips."
           src={projectTwo}
-        />
+          framework={<FaReact/>}
+          gitlink="https://github.com/snallamada/food-search-app"
+          weblink="https://shravan-food-search.netlify.app/" 
+       />
         <ProjectsCard
-          title="Shopping cart"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Task Tracker App"
+          des="The Task Tracker App streamlines your productivity journey, offering a user-friendly platform to manage your tasks effortlessly. Organize, track, and accomplish your goals with ease. Enhance your efficiency and stay on top of your to-do list, making progress one task at a time."
           src={projectThree}
+          framework={<FaReact/>}
+          gitlink="https://github.com/snallamada/Task-tracker-app"
+          weblink="https://shravan-task-tracker-app-one.vercel.app/" 
         />
-        {/* <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+       <ProjectsCard
+          title="CURD Application"
+          des="The Angular CURD App simplifies data management with easy Create, Update, Retrieve, and Delete functionalities. Seamlessly organize and control your records through an intuitive user interface. Effortlessly navigate and manipulate data for a smooth user experience."
+          src={projectFour}
+          framework={<FaAngular/>}
+          gitlink="https://github.com/snallamada/anguler-curd-app"
+          weblink="https://shravan-anguler-curd-app.vercel.app/" 
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          <ProjectsCard
+          title="Expense's Track App"
+          des="The Expense Tracker App streamlines your financial management, providing a user-friendly platform to effortlessly monitor and categorize your expenses. From groceries to utilities, track your spending with ease."
+          src={expensesapp}
+          framework={<FaVuejs />}
+          gitlink="https://github.com/snallamada/Vue-expense-tracker-app"
+          weblink="https://shravan-vue-expense-tracker.vercel.app/" 
+ 
         />
-        <ProjectsCard
+      {/*  <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
