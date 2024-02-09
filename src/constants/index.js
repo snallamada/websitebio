@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ViewProjects from '../components/projects/ProjectPages/ViewProjects';
 
 export const navLinksdata = [
   {
@@ -32,3 +34,13 @@ export const navLinksdata = [
   },
  
 ];
+
+export const routeLinks = () =>{
+  return(
+    <Router>
+      <Switch>
+        <Route path="/ViewProjects" component={ViewProjects} />
+      </Switch>
+    </Router>
+  );
+  }
