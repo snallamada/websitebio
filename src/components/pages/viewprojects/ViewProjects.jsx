@@ -4,6 +4,7 @@ import Title from '../../layouts/Title'
 import { useState } from 'react'
 import Testimonial from '../../tesimonial/Testimonial'
 import BmiCalculator from './BMI_Caluculetor_app/BmiCalculator'
+import SinglePage from './single_page_app/SinglePage'
 
 
 const ViewProjects = () => {
@@ -11,7 +12,7 @@ const ViewProjects = () => {
   const projects = {
     'Project 1': {content: <Testimonial/>},
     'BmiCalculator': { content: <BmiCalculator/> },
-    'Project 3': { content: 'Content for Project 3' },
+    'Single Page App': { content: <SinglePage/> },
     'Project 4': { content: 'Content for Project 4' },
     'Project 5': { content: 'Content for Project 5' },
   };
