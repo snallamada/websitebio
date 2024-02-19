@@ -5,20 +5,21 @@ import { useState } from 'react'
 import Testimonial from '../../tesimonial/Testimonial'
 import BmiCalculator from './BMI_Caluculetor_app/BmiCalculator'
 import SinglePage from './single_page_app/SinglePage'
+import './ViewProjects.css'
 
 
 const ViewProjects = () => {
 
   const projects = {
     'Project 1': {content: <Testimonial/>},
-    'BmiCalculator': { content: <BmiCalculator/> },
+    'BMI Calculator': { content: <BmiCalculator/> },
     'Single Page App': { content: <SinglePage/> },
     'Project 4': { content: 'Content for Project 4' },
     'Project 5': { content: 'Content for Project 5' },
   };
 
   // State to manage the selected project
-  const [selectedProject, setSelectedProject] = useState(projects['Project 1']); // Default to Project 1
+  const [selectedProject, setSelectedProject] = useState(projects['Project 1']); // Default to Project 
 
   // Function to handle project selection
   const handleProjectSelect = (project) => {
@@ -53,7 +54,7 @@ const ViewProjects = () => {
           {Object.keys(projects).map((projectName) => (
             <li key={projectName} className="py-2">
               {/* Use button instead of link to handle click */}
-              <button onClick={() => handleProjectSelect(projectName)} className="text-lightText hover:text-pink-700">{projectName}</button>
+              <button id='projects_List'  onClick={() => handleProjectSelect(projectName)} className="text-lightText hover:text-pink-700">{projectName}</button>
             </li>
           ))}
         </ul>

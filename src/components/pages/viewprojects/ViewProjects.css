@@ -1,0 +1,19 @@
+#projects_List{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #projects_List:hover {
+    background-color: #000;
+    color: #ebe7ef;
+  }
+  
+  #projects_List.active {
+    background-color: #7925d3;
+    color: #ebe7ef;
+  }

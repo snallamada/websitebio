@@ -30,6 +30,13 @@ const BmiCalculator = () => {
 			setBmiMessage(''); 
 		} 
 	}; 
+  
+const resetBtnHandler = () => {
+	setHeightValue(''); 
+	setWeightValue(''); 
+	setBmiValue(''); 
+	setBmiMessage(''); 
+}
 
 	return ( 
 		<div className="container"> 
@@ -56,14 +63,20 @@ const BmiCalculator = () => {
 				Click to Calculate BMI 
 			</button> 
 			{bmiValue && bmiMessage && ( 
-				<div className="result"> 
-					<p> 
-						Your BMI: <span className="bmi-value">{bmiValue}</span> 
-					</p> 
-					<p> 
-						Result: <span className="bmi-message">{bmiMessage}</span> 
-					</p> 
-				</div> 
+				<><div className="result">
+					<p>
+						Your BMI: <span className="bmi-value">{bmiValue}</span>
+					</p>
+					<p>
+						Result: <span className="bmi-message">{bmiMessage}</span>
+					</p>
+				</div>
+				
+				
+				<button className="calculate-btn" onClick={resetBtnHandler} style={{marginTop:15}}>
+						Reset
+					</button></> 
+
 			)} 
 		</div> 
 	); 
