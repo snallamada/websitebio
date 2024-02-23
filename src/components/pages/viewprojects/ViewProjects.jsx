@@ -5,7 +5,9 @@ import { useState } from 'react'
 import Testimonial from '../../tesimonial/Testimonial'
 import BmiCalculator from './BMI_Caluculetor_app/BmiCalculator'
 import SinglePage from './single_page_app/SinglePage'
+import InvoiceApp from './Bill_invoice_app/InvoiceApp'
 import './ViewProjects.css'
+
 
 
 const ViewProjects = () => {
@@ -14,7 +16,7 @@ const ViewProjects = () => {
     'Project 1': {content: <Testimonial/>},
     'BMI Calculator': { content: <BmiCalculator/> },
     'Single Page App': { content: <SinglePage/> },
-    'Project 4': { content: 'Content for Project 4' },
+    'InvoiceApp': { content: <InvoiceApp/> },
     'Project 5': { content: 'Content for Project 5' },
   };
 

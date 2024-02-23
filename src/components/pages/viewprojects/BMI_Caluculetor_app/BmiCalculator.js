@@ -40,10 +40,10 @@ const resetBtnHandler = () => {
 
 	return ( 
 		<div className="container"> 
-			<h1>BMI Calculator</h1> 
+			<h1 className='bmih1'>BMI Calculator</h1> 
 			<div className="input-container"> 
-				<label htmlFor="height">Enter Your Height (cm):</label> 
-				<input 
+				<label className='bmi-label' htmlFor="height">Enter Your Height (cm):</label> 
+				<input className='bmi-input'
 					type="number"
 					id="height"
 					value={heightValue} 
@@ -51,8 +51,9 @@ const resetBtnHandler = () => {
 				/> 
 			</div> 
 			<div className="input-container"> 
-				<label htmlFor="weight">Enter Your Weight (kg):</label> 
+				<label className='bmi-label' htmlFor="weight">Enter Your Weight (kg):</label> 
 				<input 
+				className='bmi-input'
 					type="number"
 					id="weight"
 					value={weightValue} 
