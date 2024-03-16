@@ -1,8 +1,10 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree , projectFour, expensesapp} from "../../assets/index";
+import { projectOne, projectTwo, projectThree , projectFour, expensesapp, bank_app} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
-import { FaReact , FaAngular, FaVuejs } from 'react-icons/fa';
+import { FaReact , FaAngular, FaVuejs, } from 'react-icons/fa';
+import { SiJavascript } from "react-icons/si";
+
 import {Link} from 'react-router-dom'
 const Projects = () => {
   return (
@@ -17,12 +19,23 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+
+      <ProjectsCard
+          title="Bank App"
+          des="The Bank App simplifies banking with features like balance checks, transfers, loans, withdrawals, and credit details. It's a secure, user-friendly platform ensuring easy financial management on the go."
+          src={bank_app}
+          framework={<SiJavascript/>}
+          gitlink="https://github.com/snallamada/Employee-portal-app"
+          weblink="https://shravan-bank-app-opal.vercel.app/" 
+ 
+        />
+
         <ProjectsCard
           title="Employee Portal"
           des="The Employee Portal streamlines access to company information through secure logins, offering a centralized hub for updates and documents. It promotes efficiency, ensuring quick retrieval of essential information, and enhances communication in the workplace."
           src={projectOne}
           framework={<FaReact/>}
-          gitlink="https://github.com/snallamada/Employee-portal-app"
+          gitlink="https://github.com/snallamada/Bank_app"
           weblink="https://portallogin.netlify.app/" 
  
         />
@@ -42,15 +55,7 @@ const Projects = () => {
           gitlink="https://github.com/snallamada/Task-tracker-app"
           weblink="https://shravan-task-tracker-app-one.vercel.app/" 
         />
-       <ProjectsCard
-          title="CURD Application"
-          des="The Angular CURD App simplifies data management with easy Create, Update, Retrieve, and Delete functionalities. Seamlessly organize and control your records through an intuitive user interface. Effortlessly navigate and manipulate data for a smooth user experience."
-          src={projectFour}
-          framework={<FaAngular/>}
-          gitlink="https://github.com/snallamada/anguler-curd-app"
-          weblink="https://shravan-anguler-curd-app.vercel.app/" 
-        />
-          <ProjectsCard
+         <ProjectsCard
           title="Expense's Track App"
           des="The Expense Tracker App streamlines your financial management, providing a user-friendly platform to effortlessly monitor and categorize your expenses. From groceries to utilities, track your spending with ease."
           src={expensesapp}
@@ -59,6 +64,15 @@ const Projects = () => {
           weblink="https://shravan-vue-expense-tracker.vercel.app/" 
  
         />
+       <ProjectsCard
+          title="CURD Application"
+          des="The Angular CURD App simplifies data management with easy Create, Update, Retrieve, and Delete functionalities. Seamlessly organize and control your records through an intuitive user interface. Effortlessly navigate and manipulate data for a smooth user experience."
+          src={projectFour}
+          framework={<FaAngular/>}
+          gitlink="https://github.com/snallamada/anguler-curd-app"
+          weblink="https://shravan-anguler-curd-app.vercel.app/" 
+        />
+         
       {/*  <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.

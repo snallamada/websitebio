@@ -9,6 +9,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import expensesapp from "./images/projects/expensesapp.png"
+import bank_app from './images/projects/bank_app.jpg'
 
 export {
   logo,
@@ -22,5 +23,6 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  bank_app,
 
 };
