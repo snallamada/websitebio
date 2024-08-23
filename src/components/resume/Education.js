@@ -29,7 +29,7 @@ const Education = () => {
 
             } />
           <ResumeCard
-            title=" Bachelor's in Cumputer Science Engineering."
+            title=" Bachelor's in Computer Science Engineering."
             subTitle="Jawaharlal Nehru Technological University Hyderabad (2014 - 2016)"
             result="Hyderabad,India"
             des={
