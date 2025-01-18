@@ -4,7 +4,9 @@ const FooterBottom = () => {
   return (
     <div className="w-full py-10">
       <p className="text-center text-gray-500 text-base">
-        © 2024. All rights reserved by Shravan NALLAMADA
+      
+        <span>&copy; @ {new Date().getFullYear()} All rights reserved by Shravan NALLAMADA.</span>
+
       </p>
     </div>
   );
